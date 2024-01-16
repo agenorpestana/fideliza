@@ -1,0 +1,54 @@
+[25-Oct-2023 09:54:39 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 192
+[25-Oct-2023 09:54:40 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_foto.php on line 37
+[25-Oct-2023 09:54:40 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 197
+[25-Oct-2023 09:54:40 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_audio.php on line 36
+[25-Oct-2023 09:58:31 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 192
+[25-Oct-2023 09:58:31 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_foto.php on line 37
+[25-Oct-2023 09:58:31 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 197
+[25-Oct-2023 09:58:31 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_audio.php on line 36
+[25-Oct-2023 10:03:46 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 192
+[25-Oct-2023 10:03:46 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_foto.php on line 37
+[25-Oct-2023 10:03:46 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 197
+[25-Oct-2023 10:03:46 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_audio.php on line 36
+[25-Oct-2023 10:06:46 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 192
+[25-Oct-2023 10:06:46 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_foto.php on line 37
+[25-Oct-2023 10:06:46 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 197
+[25-Oct-2023 10:06:46 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_audio.php on line 36
+[31-Oct-2023 08:27:15 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_nasc' in 'where clause' in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php:21
+Stack trace:
+#0 /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php(21): PDO->query('SELECT telefone...')
+#1 {main}
+  thrown in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php on line 21
+[31-Oct-2023 08:27:18 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_nasc' in 'where clause' in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php:24
+Stack trace:
+#0 /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php(24): PDO->query('SELECT telefone...')
+#1 {main}
+  thrown in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php on line 24
+[31-Oct-2023 08:27:22 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_nasc' in 'where clause' in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php:21
+Stack trace:
+#0 /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php(21): PDO->query('SELECT telefone...')
+#1 {main}
+  thrown in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php on line 21
+[31-Oct-2023 08:27:36 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_nasc' in 'where clause' in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php:21
+Stack trace:
+#0 /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php(21): PDO->query('SELECT telefone...')
+#1 {main}
+  thrown in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php on line 21
+[31-Oct-2023 08:28:01 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_nasc' in 'where clause' in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php:24
+Stack trace:
+#0 /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php(24): PDO->query('SELECT telefone...')
+#1 {main}
+  thrown in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php on line 24
+[31-Oct-2023 08:31:15 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_nasc' in 'where clause' in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php:21
+Stack trace:
+#0 /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php(21): PDO->query('SELECT telefone...')
+#1 {main}
+  thrown in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/listar_clientes.php on line 21
+[31-Oct-2023 09:05:22 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 192
+[31-Oct-2023 09:05:23 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_foto.php on line 37
+[31-Oct-2023 09:05:23 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 197
+[31-Oct-2023 09:05:23 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_audio.php on line 36
+[01-Nov-2023 10:01:34 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 192
+[01-Nov-2023 10:01:34 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_foto.php on line 37
+[01-Nov-2023 10:01:34 America/Sao_Paulo] PHP Warning:  Undefined variable $url_sistema in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/disparar.php on line 197
+[01-Nov-2023 10:01:34 America/Sao_Paulo] PHP Warning:  Undefined property: stdClass::$hash in /home2/kekaca97/itlfibra.com/fideliza/painel/paginas/marketing/marketing_audio.php on line 36

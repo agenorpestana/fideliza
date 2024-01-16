@@ -1,0 +1,193 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: sans-serif;
+  src: url(../font/Nue-Gothic-Round.ttf);
+}
+
+@font-face {
+    font-family: 'Insaniburger with Cheese';
+    src: url('../font/InsaniburgerwithCheese.woff2') format('woff2'),
+        url('../font/InsaniburgerwithCheese.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.BodyBackground{
+    background-color: #edebeb;
+}
+
+.box-inicial{
+    background-color: #151E2A;
+    margin-top: 10px;
+    height: 90px;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 20px;
+}
+
+.indique-um-amigo{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30pt;
+    /*transition-duration: 1s;*/
+}
+/*.indique-um-amigo:hover{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40pt;
+    transition: 1s;
+   transition-timing-function: ease-in-out; */
+}
+
+.box-darkblue{
+    background-image: url("../img/background-itlfibra.png");
+    height:auto;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.darkblue-overlay:before {
+  background-color: #fff ;
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  opacity:1;
+  transition: 0.8s;
+  transition-duration: 0.8s;
+}
+
+/*.darkblue-overlay:hover:before  {
+  background-color: white; 
+  opacity: 1;
+  transition: 0.3s;
+  transition-duration: 0.3s;
+}*/
+
+.pinky-nobg{
+    background: transparent;
+    border: 2px solid #FF3366;
+}
+.pinky-nobg::placeholder{
+    color:#6F6F75;
+}
+
+.labels{
+    font-size: 15pt;
+    text-align: left;
+    display: block;
+    color: #150DE8;
+    font-family: sans-serif;
+    margin-top: 5px;
+    transition: 1s;
+}
+
+.voce{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 20pt;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+/*.labels:hover{
+    font-size: 18pt;
+    text-align: center;
+    display: block;
+    color: #FF3366;
+    font-family: NGR;
+    transition: 1s;
+}*/
+
+.btn-enviar{
+    color: white;
+    background-color: #E63946;
+    border: none;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out
+}
+
+/*.btn-enviar:hover{
+    color: white;
+    background-color: #A02040;
+    border: none;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out
+}*/
+
+.padding-zero{
+    padding: 0px;
+}
+.box-down{
+    height:auto;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #151E2A;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+}
+
+.logo-down{
+    margin-top: 30px;
+}
+
+.btn-regulamento{
+    margin-top: 20px;
+    font-size: 20pt;
+    border: none;
+    background-color: #E63946;
+    transition: 0.3s;
+}
+
+.btn-regulamento:hover{
+    margin-top: 20px;
+    font-size: 20pt;
+    border: none;
+    background-color: #A02040;
+    transition: 0.3s;
+}
+
+.img-side{
+    background: rgba(11,48,90,255);
+    background: radial-gradient(circle, rgba(206, 192, 194, 1) 0%, rgba(20, 12, 232, 1) 100%);
+    padding: 20px;
+    height: auto;
+}
+
+.img-left{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.asteriscos .top{
+    margin-top: 20px;
+}
+
+.asteriscos{
+    color: #FF3366;
+    font-size: 11pt;
+}
+
+.BotaoConsulta{
+    background-color: #E63946;
+    border: none;
+}
+
+.BotaoConsulta:hover{
+    background-color: #b90935;
+    border: none;
+}
+
+.InformacoesConfirmadas h6{
+    margin-bottom: -13px;
+    color: #E63946;
+}

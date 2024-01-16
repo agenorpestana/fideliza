@@ -1,0 +1,38 @@
+.star-rating {
+    display: block;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 25px;
+    cursor: pointer;
+    color: black; /* Cor do contorno preto */
+    padding: 5px;
+}
+
+.star-rating label::before {
+    content: "\2605"; /* Estrela preenchida (Unicode) */
+    color: #FC0; /* Cor das estrelas preenchidas */
+}
+
+.star-rating input[type="radio"]:checked ~ label::before {
+    content: "\2606"; /* Estrela vazia (Unicode) */
+    color: #CCC; /* Cor do contorno preto */
+}
+
+/* Estilo para limitar a largura do formulário */
+        .max-width-800 {
+            max-width: 800px;
+            margin: 0 auto; /* Centraliza o formulário na página */
+        }
+
+        /* Adicione margem em dispositivos móveis */
+    @media (max-width: 767px) {
+        .container.max-width-780 {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }

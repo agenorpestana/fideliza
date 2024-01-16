@@ -1,0 +1,104 @@
+@media (min-width: 250px) and (max-width: 756px) {
+    .box-inicial{
+    background-color: #151E2A;
+    margin-top: 20px;
+    height: 120px;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 20px;
+}
+.indique-um-amigo{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20pt;
+   /* transition-duration: 1s; */
+}
+/*
+.indique-um-amigo:hover{
+    color: #FF3366;
+    font-family: NGR;
+    font-size: 30pt;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}*/
+.labels{
+    font-size: 15pt;
+    text-align: left;
+    display: block;
+    color: #0707e2;
+    font-family: sans-serif;
+    margin-top: 10px;
+    /*transition: 1s; */
+}
+
+/*.labels:hover{
+    font-size: 25pt;
+    text-align: center;
+    display: block;
+    color: #FF3366;
+    font-family: sans-serif;
+    transition: 1s; 
+}*/
+.form-group{
+    margin-bottom: 15px;
+}
+
+.btn-enviar{
+    color: white;
+    background-color: #E63946;
+    border: none;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box-down{
+    height: 130px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #151E2A;
+}
+
+.btn-regulamento{
+    margin-top: 20px;
+    font-size: 8pt;
+    border: none;
+    background-color: #E63946;
+    transition: 0.3s;
+}
+
+.btn-regulamento:hover{
+    margin-top: 20px;
+    font-size: 8pt;
+    border: none;
+    background-color: #E63946;
+    transition: 0.3s;
+}
+
+.box-down{
+    height:auto;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #151E2A;
+    margin-bottom: 40px;
+    padding-bottom: 50px;
+}
+
+.voce{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 20pt;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+.BotaoConsulta{
+    background-color: #FF3366;
+    border: none;
+    font-size: 10pt;
+}
+
+.asteriscos{
+    color: #FF3366;
+    font-size: 8pt;
+}
+
+}
