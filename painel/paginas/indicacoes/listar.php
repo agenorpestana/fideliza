@@ -12,6 +12,7 @@ echo <<<HTML
     <thead> 
     <tr> 
     <th>Nome do Indicador</th>
+    <th class="esc">Chave PIX</th>
     <th class="esc">Nome do Indicado</th>   
     <th class="esc">Telefone do Indicado</th>
     <th class="esc">Cidade do Indicado</th>
@@ -30,6 +31,7 @@ for($i=0; $i<$linhas; $i++){
     $telefone_cli = $res[$i]['telefone_cli'];
     $nome_ind = $res[$i]['nome_ind'];
     $telefone_ind = $res[$i]['telefone_ind'];
+    $chavepix = $res[$i]['chavepix'];
     $cidade_ind = $res[$i]['cidade_ind'];
     $data_cadastro = $res[$i]['data_cadastro'];
     $status = $res[$i]['status'];
@@ -114,12 +116,13 @@ echo <<<HTML
 <td>
 <i class="fa fa-square $classe_square"></i>
 <!--<input type="checkbox" id="seletor-{$id}" class="form-check-input" onchange="selecionar('{$id}')">-->
-<a href="#" onclick="abrirAulas('{$id}','{$nome_cli}','{$telefone_cli}','{$status}','{$usuario}')" class="{$nome_ind} $ocultar_aulas">  
+<a href="#" onclick="abrirAulas('{$id}','{$nome_cli}', '{$chavepix}','{$telefone_cli}','{$status}','{$usuario}')" class="{$nome_ind} $ocultar_aulas">  
         {$nome_cli}
         <small><i class="fa fa-commenting text-dark" class="text-danger"></i> </small>
         </a>
 
 </td>
+<td class="esc">{$chavepix}</td>
 <td class="esc">{$nome_ind}</td>
 <td class="esc">{$telefone_ind}</td>
 <td class="esc">{$cidade_ind}</td>
@@ -140,7 +143,7 @@ echo <<<HTML
         </ul>
 </li>-->
 
-<big><a href="#" onclick="mostrar('{$id}','{$nome_cli}','{$telefone_cli}','{$status}','{$nome_ind}','{$telefone_ind}','{$cidade_ind}','{$obs}')" title="Mostrar Dados"><i class="fa fa-info-circle text-primary"></i></a></big>
+<big><a href="#" onclick="mostrar('{$id}','{$nome_cli}', '{$chavepix}','{$telefone_cli}','{$status}','{$nome_ind}','{$telefone_ind}','{$cidade_ind}','{$obs}')" title="Mostrar Dados"><i class="fa fa-info-circle text-primary"></i></a></big>
 
 
 </td>
@@ -153,12 +156,13 @@ HTML;
 <td>
 <i class="fa fa-square $classe_square"></i>
 <!--<input type="checkbox" id="seletor-{$id}" class="form-check-input" onchange="selecionar('{$id}')">-->
-<a href="#" onclick="abrirAulas('{$id}','{$nome_cli}','{$telefone_cli}','{$status}','{$usuario}')" class="{$nome_ind} $ocultar_aulas">  
+<a href="#" onclick="abrirAulas('{$id}','{$nome_cli}','{$chavepix}','{$telefone_cli}','{$status}','{$usuario}')" class="{$nome_ind} $ocultar_aulas">  
         {$nome_cli}
         <small><i class="fa fa-commenting text-dark" class="text-danger"></i> </small>
         </a>
 
 </td>
+<td class="esc">{$chavepix}</td>
 <td class="esc">{$nome_ind}</td>
 <td class="esc">{$telefone_ind}</td>
 <td class="esc">{$cidade_ind}</td>
@@ -180,7 +184,7 @@ HTML;
         </ul>
 </li>-->
 
-<big><a href="#" onclick="mostrar('{$id}','{$nome_cli}','{$telefone_cli}','{$status}','{$nome_ind}','{$telefone_ind}','{$cidade_ind}','{$obs}')" title="Mostrar Dados"><i class="fa fa-info-circle text-primary"></i></a></big>
+<big><a href="#" onclick="mostrar('{$id}','{$nome_cli}','{$chavepix}','{$telefone_cli}','{$status}','{$nome_ind}','{$telefone_ind}','{$cidade_ind}','{$obs}')" title="Mostrar Dados"><i class="fa fa-info-circle text-primary"></i></a></big>
 
 
 </td>
@@ -192,12 +196,13 @@ HTML;
 <td>
 <i class="fa fa-square $classe_square"></i>
 <!--<input type="checkbox" id="seletor-{$id}" class="form-check-input" onchange="selecionar('{$id}')">-->
-<a href="#" onclick="abrirAulas('{$id}','{$nome_cli}','{$telefone_cli}','{$status}','{$usuario}')" class="{$nome_ind} $ocultar_aulas">  
+<a href="#" onclick="abrirAulas('{$id}','{$nome_cli}','{$chavepix}','{$telefone_cli}','{$status}','{$usuario}')" class="{$nome_ind} $ocultar_aulas">  
         {$nome_cli}
         <small><i class="fa fa-commenting text-dark" class="text-danger"></i> </small>
         </a>
 
 </td>
+<td class="esc">{$chavepix}</td>
 <td class="esc">{$nome_ind}</td>
 <td class="esc">{$telefone_ind}</td>
 <td class="esc">{$cidade_ind}</td>
@@ -219,7 +224,7 @@ HTML;
         </ul>
 </li>-->
 
-<big><a href="#" onclick="mostrar('{$id}','{$nome_cli}','{$telefone_cli}','{$status}','{$nome_ind}','{$telefone_ind}','{$cidade_ind}','{$obs}')" title="Mostrar Dados"><i class="fa fa-info-circle text-primary"></i></a></big>
+<big><a href="#" onclick="mostrar('{$id}','{$nome_cli}','{$chavepix}','{$telefone_cli}','{$status}','{$nome_ind}','{$telefone_ind}','{$cidade_ind}','{$obs}')" title="Mostrar Dados"><i class="fa fa-info-circle text-primary"></i></a></big>
 
 
 </td>
@@ -231,12 +236,13 @@ HTML;
 <td>
 <i class="fa fa-square $classe_square"></i>
 <!--<input type="checkbox" id="seletor-{$id}" class="form-check-input" onchange="selecionar('{$id}')">-->
-<a href="#" onclick="abrirAulas('{$id}','{$nome_cli}','{$telefone_cli}','{$status}','{$usuario}')" class="{$nome_ind} $ocultar_aulas">  
+<a href="#" onclick="abrirAulas('{$id}','{$nome_cli}','{$chavepix}','{$telefone_cli}','{$status}','{$usuario}')" class="{$nome_ind} $ocultar_aulas">  
         {$nome_cli}
         <small><i class="fa fa-commenting text-dark" class="text-danger"></i> </small>
         </a>
 
 </td>
+<td class="esc">{$chavepix}</td>
 <td class="esc">{$nome_ind}</td>
 <td class="esc">{$telefone_ind}</td>
 <td class="esc">{$cidade_ind}</td>
@@ -271,12 +277,13 @@ HTML;
 <td>
 <i class="fa fa-square $classe_square"></i>
 <!--<input type="checkbox" id="seletor-{$id}" class="form-check-input" onchange="selecionar('{$id}')">-->
-<a href="#" onclick="abrirAulas('{$id}','{$nome_cli}','{$telefone_cli}','{$status}','{$usuario}')" class="{$nome_ind} $ocultar_aulas">  
+<a href="#" onclick="abrirAulas('{$id}','{$nome_cli}','{$chavepix}','{$telefone_cli}','{$status}','{$usuario}')" class="{$nome_ind} $ocultar_aulas">  
         {$nome_cli}
         <small><i class="fa fa-commenting text-dark" class="text-danger"></i> </small>
         </a>
 
 </td>
+<td class="esc">{$chavepix}</td>
 <td class="esc">{$nome_ind}</td>
 <td class="esc">{$telefone_ind}</td>
 <td class="esc">{$cidade_ind}</td>
@@ -299,7 +306,7 @@ HTML;
         </ul>
 </li>-->
 
-<big><a href="#" onclick="mostrar('{$id}','{$nome_cli}','{$telefone_cli}','{$status}','{$nome_ind}','{$telefone_ind}','{$cidade_ind}','{$obs}')" title="Mostrar Dados"><i class="fa fa-info-circle text-primary"></i></a></big>
+<big><a href="#" onclick="mostrar('{$id}','{$nome_cli}','{$chavepix}','{$telefone_cli}','{$status}','{$nome_ind}','{$telefone_ind}','{$cidade_ind}','{$obs}')" title="Mostrar Dados"><i class="fa fa-info-circle text-primary"></i></a></big>
 
 
 </td>
@@ -345,10 +352,11 @@ HTML;
     }
 
 
-    function mostrar(id, nome_cli, telefone_cli, status, nome_ind, telefone_ind, cidade_ind, obs){
+    function mostrar(id, nome_cli, chavepix, telefone_cli, status, nome_ind, telefone_ind, cidade_ind, obs){
 
         $('#titulo_dados').text(id);
         $('#nome_cli').text(nome_cli);
+        $('#chavepix').text(chavepix);
         $('#telefone_cli').text(telefone_cli);
         $('#status').text(status);
 
@@ -363,6 +371,7 @@ HTML;
     function limparCampos(){
         $('#id').val('');
         $('#nome_ind').val('');
+        $('#chavepix').val('');
         $('#telefone_ind').val('');
         $('#cidade_ind').val('');
         $('#nome_cli').val('');

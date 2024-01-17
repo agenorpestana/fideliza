@@ -9,6 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nomeIndicado = $_POST["nomeIndicado"];
     $telefoneIndicado = $_POST["telefoneIndicado"];
     $cidadeIndicado = $_POST["cidadeIndicado"];
+    $chavepix = $_POST["chavepix"];
 
     // Consulta SQL para verificar se o telefone já existe na tabela de indicações
     $consultaExistencia = $pdo->prepare("SELECT COUNT(*) as count FROM indicacoes WHERE telefone_ind = :telefoneIndicado");
@@ -38,13 +39,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
             // Consulta SQL para inserir os dados na tabela de indicações
-            $query = $pdo->prepare("INSERT INTO indicacoes (nome_cli, telefone_cli, nome_ind, telefone_ind, cidade_ind, data_cadastro, status) VALUES (:nomeCliente, :telefoneCliente, :nomeIndicado, :telefoneIndicado, :cidadeIndicado, NOW(), 'Aguardando')");
+            $query = $pdo->prepare("INSERT INTO indicacoes (nome_cli, telefone_cli, nome_ind, telefone_ind, chavepix ,cidade_ind, data_cadastro, status) VALUES (:nomeCliente, :telefoneCliente, :nomeIndicado, :telefoneIndicado, :chavepix, :cidadeIndicado, NOW(), 'Aguardando')");
 
             $query->bindParam(":nomeCliente", $nomeCliente, PDO::PARAM_STR);
             $query->bindParam(":telefoneCliente", $telefoneCliente, PDO::PARAM_STR);
             $query->bindParam(":nomeIndicado", $nomeIndicado, PDO::PARAM_STR);
             $query->bindParam(":telefoneIndicado", $telefoneIndicado, PDO::PARAM_STR);
             $query->bindParam(":cidadeIndicado", $cidadeIndicado, PDO::PARAM_STR);
+            $query->bindParam(":chavepix", $chavepix, PDO::PARAM_STR);
 
 
             // Execute a consulta de inserção

@@ -96,6 +96,17 @@
             </div>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-12 col-lg-8 offset-lg-2">
+            <div class="form-group">
+              <label for="chavepix" class="labels">Sua Chave PIX</label>
+              <input type="text" class="form-control pinky-nobg" placeholder="Chave PIX" name="chavepix" id="chavepix" required>
+            </div>
+          </div>
+        </div>
+
+
         <div class="row">
           <div class="col-12 col-lg-8 offset-lg-2">
             <div class="form-group">

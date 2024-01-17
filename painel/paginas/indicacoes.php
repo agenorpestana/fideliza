@@ -105,6 +105,10 @@ if(@$idicacoes == 'ocultar'){
                         <span><b>Nome do Indicador: </b></span><span id="nome_cli"></span>
                     </div>
 
+                    <div class="col-md-12" style="margin-bottom: 5px">
+                        <span><b>Chave PIX: </b></span><span id="chavepix"></span>
+                    </div>
+
                     <div class="col-md-6" style="margin-bottom: 5px">
                         <span><b>Tel Indicador: </b></span><span id="telefone_cli"></span>
                     </div>
